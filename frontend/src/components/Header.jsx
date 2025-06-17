@@ -2,9 +2,11 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow">
+    <header className="bg-gradient-to-br from-white via-pink-100 to-pink-200">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-primary">Akademi Crypto</h1>
+        <h1 className="text-2xl font-display font-bold text-primary">
+          Wella Makeup
+        </h1>
         <nav className="space-x-6">
           <a href="#features" className="text-gray-700 hover:text-blue-600">
             Fitur

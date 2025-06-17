@@ -4,22 +4,19 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-background font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-white via-pink-100 to-pink-200 font-sans">
       {/* Header */}
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary to-primary-dark text-white py-20">
+      <section className="bg-white text-pinklight py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">
-            Belajar Kripto Dengan Cara Mudah
+          <h2 className="text-4xl font-display font-bold mb-4">
+            Makeup Cantik
           </h2>
-          <p className="text-lg mb-8">
-            Akses ratusan materi dan kursus seputar dunia kripto, DeFi, dan
-            Web3.
-          </p>
+          <p className="text-lg font-display mb-8">Abadikan momen cantik mu</p>
           <button className="bg-white text-primary font-semibold px-6 py-3 rounded hover:bg-gray-100">
-            Mulai Belajar
+            Book Now
           </button>
         </div>
       </section>

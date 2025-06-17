@@ -7,8 +7,14 @@ module.exports = {
         primary: {
           DEFAULT: "#F64A8A",
           dark: "#db2777",
+          pinklight: "#ffe6f0",
+          pinksoft: "#fcdde8",
         },
-        background: "#ffffff",
+        background: "#fffff",
+      },
+      fontFamily: {
+        display: ["Playfair Display", "serif"], // untuk heading
+        sans: ["Open Sans", "sans-serif"], // untuk body text
       },
     },
   },
