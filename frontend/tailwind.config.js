@@ -7,8 +7,7 @@ module.exports = {
         primary: {
           DEFAULT: "#F64A8A",
           dark: "#db2777",
-          pinklight: "#ffe6f0",
-          pinksoft: "#fcdde8",
+          darkpink: "#AA336A",
         },
       },
       fontFamily: {
