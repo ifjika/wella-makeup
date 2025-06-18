@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className="text-4xl font-display font-bold mb-4">
             Makeup Cantik
           </h2>
-          <p className="text-lg font-display mb-8">Abadikan momen cantik mu</p>
+          <p className="text-lg  mb-8">Abadikan momen cantik mu</p>
           <button className="bg-white text-primary font-semibold px-6 py-3 rounded hover:bg-gray-100">
             Book Now
           </button>
@@ -30,27 +30,35 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded shadow text-center">
               <h4 className="text-xl font-semibold mb-2 text-primary">
-                Kursus Interaktif
+                Makeup A
               </h4>
               <p className="text-gray-600">
-                Nikmati modul yang interaktif dan mudah dipahami untuk semua
-                level.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatum provident maiores, aliquam repellat culpa beatae ab
+                rerum minima sit cupiditate, ad tempore, fugiat ullam error
+                accusamus id nam assumenda quasi!
               </p>
             </div>
             <div className="bg-white p-6 rounded shadow text-center">
               <h4 className="text-xl font-semibold mb-2 text-primary">
-                Komunitas Aktif
+                Makeup B
               </h4>
               <p className="text-gray-600">
-                Bergabung dengan komunitas belajar dan diskusi kripto terbesar.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                accusamus fugit libero laborum ab deleniti illo dolore
+                dignissimos. Facere corrupti vero labore! Velit aliquam sequi
+                odit iste tempore vitae! Unde?
               </p>
             </div>
             <div className="bg-white p-6 rounded shadow text-center">
               <h4 className="text-xl font-semibold mb-2 text-primary">
-                Update Rutin
+                Makeup C
               </h4>
               <p className="text-gray-600">
-                Materi diperbarui secara berkala sesuai perkembangan industri.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolores fugiat voluptates, consequuntur harum aspernatur,
+                repellendus alias facere vero iste accusantium voluptate hic
+                dolor ipsa molestias beatae dolorum suscipit? Tenetur, rem.
               </p>
             </div>
           </div>

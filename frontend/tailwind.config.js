@@ -10,11 +10,10 @@ module.exports = {
           pinklight: "#ffe6f0",
           pinksoft: "#fcdde8",
         },
-        background: "#fffff",
       },
       fontFamily: {
-        display: ["Playfair Display", "serif"], // untuk heading
-        sans: ["Open Sans", "sans-serif"], // untuk body text
+        brand: ["Libre Baskerville", "serif"],
+        sans: ["Montserrat", "sans-serif"],
       },
     },
   },
