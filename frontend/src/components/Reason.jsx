@@ -26,7 +26,7 @@ const Reason = () => {
   ];
 
   return (
-    <section className="py-16 px-4 cursor-default bg-orange-50">
+    <section className="py-16 px-4 cursor-default">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold font-brand text-primary mb-4">
           Why Wella Makeup ?
