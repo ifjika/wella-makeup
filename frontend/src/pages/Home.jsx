@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import Portfolio from "../components/Portfolio";
+import Reason from "../components/Reason";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -14,6 +15,9 @@ const Home = () => {
 
       {/* Portfolio */}
       <Portfolio />
+
+      {/* Why Me */}
+      <Reason />
 
       {/* Features Section */}
       <section id="features" className="py-20">
