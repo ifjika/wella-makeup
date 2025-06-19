@@ -11,6 +11,17 @@ const HeroSection = () => {
         <p className="text-lg md:text-xl text-dark mb-6">
           Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
           Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
+          Lorem
+        </p>
+        <p className="text-lg md:text-xl text-dark mb-6">
+          Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
+          Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
+          Lorem
+        </p>
+        <p className="text-lg md:text-xl text-dark mb-6">
+          Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
+          Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
+          Lorem
         </p>
         <button className="bg-primary text-white px-6 py-3 rounded-lg font-bold shadow-lg hover:bg-pink-600 transition duration-300">
           Booking Sekarang

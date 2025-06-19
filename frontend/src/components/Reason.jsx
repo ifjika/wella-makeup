@@ -1,3 +1,5 @@
+import React from "react";
+import { motion } from "framer-motion";
 import img1 from "../assets/reason-1.jpg";
 import img2 from "../assets/reason-2.jpg";
 import img3 from "../assets/reason-3.jpg";
@@ -18,7 +20,7 @@ const Reason = () => {
       icon: <GiLipstick />,
       title: "Makeup Wedding & All Event",
       description:
-        "Dari akad nikah hingga pesta, saya siap menemani setiap event penting Anda.",
+        "Dari akad nikah hingga pesta, siap menemani setiap event penting Anda.",
       image: img2,
     },
     {
@@ -31,7 +33,7 @@ const Reason = () => {
   ];
 
   return (
-    <section className="py-16 px-4 cursor-default bg-orange-50">
+    <section className="py-16 px-4 cursor-default">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold font-brand text-primary mb-4">
           Why Wella Makeup ?
@@ -48,11 +50,15 @@ const Reason = () => {
               const isEven = index % 2 === 1;
 
               return (
-                <div
-                  key={item.icon}
+                <motion.div
+                  key={item.title}
                   className={`relative flex flex-col md:flex-row items-center ${
                     isEven ? "md:flex-row-reverse" : ""
                   }`}
+                  initial={{ opacity: 0, y: 60 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: index * 0.2 }}
+                  viewport={{ once: true, amount: 0.3 }}
                 >
                   {/* Text Section */}
                   <div
@@ -60,10 +66,12 @@ const Reason = () => {
                       isEven ? "left" : "right"
                     } mb-6 md:mb-0`}
                   >
-                    <h3 className="text-xl font-semibold text-primary">
+                    <h3 className="text-4xl font-semibold text-primary">
                       {item.title}
                     </h3>
-                    <p className="text-gray-700 mt-2">{item.description}</p>
+                    <p className="text-drak text-2xl mt-2">
+                      {item.description}
+                    </p>
                   </div>
 
                   {/* Centered Icon */}
@@ -93,7 +101,7 @@ const Reason = () => {
                       />
                     </div>
                   </div>
-                </div>
+                </motion.div>
               );
             })}
           </div>
