@@ -17,7 +17,7 @@ const Portfolio = () => {
           {portofolioItems.map((items, index) => (
             <div
               key={index}
-              className="rounded-lg overflow-hidden shadow-md border-2 border-pink-400 "
+              className="rounded-lg overflow-hidden shadow-md border-2 border-primary "
             >
               <img
                 src={items.path}
