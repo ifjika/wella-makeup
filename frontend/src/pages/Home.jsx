@@ -4,7 +4,7 @@ import Portfolio from "../components/Home/Portfolio";
 import Reason from "../components/Home/Reason";
 import Services from "../components/Home/Services";
 import Testimoni from "../components/Home/Testimoni";
-import Achievements from "../components/Home/Achievements";
+import Stats from "../components/Home/Stats";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
       <Services />
 
       {/* Achievements */}
-      <Achievements />
+      <Stats />
 
       {/* Footer */}
       <Footer />
