@@ -62,14 +62,14 @@ const Reason = () => {
                 >
                   {/* Text Section */}
                   <div
-                    className={`md:w-5/12 px-4 md:px-10 text-justify md:text-${
-                      isEven ? "right" : "left"
-                    } mb-6 md:mb-0`}
+                    className={`md:w-5/12 px-4 md:px-10 text-justify mb-6 md:mb-0 ${
+                      isEven ? "md:text-right" : "md:text-left"
+                    }`}
                   >
                     <h3 className="text-4xl font-semibold text-primary">
                       {item.title}
                     </h3>
-                    <p className="text-drak text-2xl mt-2">
+                    <p className="text-dark text-2xl mt-2">
                       {item.description}
                     </p>
                   </div>

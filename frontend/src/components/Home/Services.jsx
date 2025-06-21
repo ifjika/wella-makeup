@@ -39,7 +39,7 @@ const Services = () => {
           {servicesItems.map((item, index) => (
             <motion.div
               key={index}
-              className="relative w-full sm:w-[300px] md:w-[340px] min-h-[360px] border-4 border-primary rounded-xl p-6 text-center shadow-lg flex flex-col justify-between bg-white"
+              className="relative w-full sm:w-[300px] md:w-[340px] min-h-[360px] border-4 border-primary rounded-xl p-6 text-center shadow-lg flex flex-col justify-between"
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -59,7 +59,7 @@ const Services = () => {
               <img
                 src={logo}
                 alt="logo background"
-                className="absolute inset-0 m-auto w-40 opacity-10 pointer-events-none"
+                className="absolute inset-0 m-auto w-120 opacity-10 pointer-events-none"
               />
 
               <div className="relative z-10 flex flex-col justify-between h-full">
@@ -76,7 +76,7 @@ const Services = () => {
                   </span>
                 </p>
 
-                <p className="font-medium text-gray-700 text-sm">
+                <p className="font-bold text-dark text-sm">
                   {item.description}
                 </p>
               </div>

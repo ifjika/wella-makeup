@@ -7,49 +7,20 @@ const Hero = () => {
         <h1 className="text-8xl md:text-5xl text-primary mb-4 leading-tight font-brand font-black">
           For Your Beautiful Moments
         </h1>
-        <div className="h-1 w-96 bg-primary mx-auto mb-4 rounded-full" />
-        <p className="text-lg md:text-xl text-dark mb-6">
-          Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
-          Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
-          Lorem
+        <div className="h-1 w-96 bg-primary mx-auto mb-6 rounded-full" />
+
+        <p className="text-6xl md:text-3xl font-brand font-black text-primary mb-4">
+          Makeup bukan hanya tampilan, tapi pernyataan.
         </p>
-        <p className="text-lg md:text-xl text-dark mb-6">
-          Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
-          Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
-          Lorem
+        <p className="text-6xl md:text-3xl font-brand font-black text-primary mb-6">
+          Tampil stunning dan percaya diri dengan sentuhan MUA profesional
+          bersertifikat.
         </p>
-        <p className="text-lg md:text-xl text-dark mb-6">
-          Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
-          Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
-          Lorem
-        </p>
-        <p className="text-lg md:text-xl text-dark mb-6">
-          Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
-          Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
-          Lorem
-        </p>
-        <p className="text-lg md:text-xl text-dark mb-6">
-          Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
-          Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
-          Lorem
-        </p>
-        <p className="text-lg md:text-xl text-dark mb-6">
-          Dapatkan sentuhan profesional dari Makeup Artist Berpengalaman dan
-          Bersertifikat untuk hari pernikahan, wisuda, pre-wedding, dan lainnya.
-          Lorem
-        </p>
+
         <button className="bg-primary text-white px-6 py-3 rounded-lg font-bold shadow-lg hover:bg-pink-600 transition duration-300">
           Booking Sekarang
         </button>
       </div>
-
-      {/* <div className="mt-12">
-        <img
-          src="/assets/hero-makeup-model.jpg"
-          alt="Makeup Artist Result"
-          className="mx-auto rounded-2xl shadow-xl max-w-full h-auto"
-        />
-      </div> */}
     </section>
   );
 };

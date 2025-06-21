@@ -5,6 +5,7 @@ import Reason from "../components/Home/Reason";
 import Services from "../components/Home/Services";
 import Testimoni from "../components/Home/Testimoni";
 import Stats from "../components/Home/Stats";
+import FAQ from "../components/Home/FAQ";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -30,6 +31,9 @@ const Home = () => {
 
       {/* Achievements */}
       <Stats />
+
+      {/* FAQ */}
+      {/* <FAQ /> */}
 
       {/* Footer */}
       <Footer />

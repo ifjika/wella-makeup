@@ -3,10 +3,10 @@ import { useInView, motion } from "framer-motion";
 import CountUp from "react-countup";
 
 const stats = [
-  { label: "Klien Puas", value: 300, suffix: "+" },
-  { label: "Tahun Pengalaman", value: 4 },
-  { label: "Edgament Project", value: 100, suffix: "+" },
-  { label: "Rating", value: 4.9, suffix: "⭐" },
+  { label: "Client Puas", value: 300, suffix: "+" },
+  { label: "Tahun Pengalaman", value: 5 },
+  { label: "Project", value: 500, suffix: "+" },
+  { label: "Rating", value: 4.8, suffix: "⭐" },
 ];
 
 const Stats = () => {
@@ -17,7 +17,7 @@ const Stats = () => {
   });
 
   return (
-    <section className="py-16 bg-pink-50 text-center" ref={ref}>
+    <section className="py-16 0 text-center" ref={ref}>
       <div className="max-w-5xl mx-auto px-4">
         <motion.h2
           className="text-4xl md:text-5xl font-black font-brand text-primary mb-4"
@@ -43,15 +43,14 @@ const Stats = () => {
                     end={item.value}
                     duration={2}
                     suffix={item.suffix || ""}
+                    decimals={item.value % 1 !== 0 ? 1 : 0}
                     redraw={true}
                   />
                 ) : (
                   "0" + (item.suffix || "")
                 )}
               </div>
-              <p className="mt-2 text-lg font-medium text-gray-700">
-                {item.label}
-              </p>
+              <p className="mt-2 text-lg font-bold text-dark">{item.label}</p>
             </motion.div>
           ))}
         </div>
