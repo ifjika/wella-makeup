@@ -1,7 +1,10 @@
 import Header from "../components/Header";
-import HeroSection from "../components/HeroSection";
-import Portfolio from "../components/Portfolio";
-import Reason from "../components/Reason";
+import Hero from "../components/Home/Hero";
+import Portfolio from "../components/Home/Portfolio";
+import Reason from "../components/Home/Reason";
+import Services from "../components/Home/Services";
+import Testimoni from "../components/Home/Testimoni";
+import Achievements from "../components/Home/Achievements";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -11,13 +14,22 @@ const Home = () => {
       <Header />
 
       {/* Hero */}
-      <HeroSection />
+      <Hero />
+
+      {/* Why Me */}
+      <Reason />
 
       {/* Portfolio */}
       <Portfolio />
 
-      {/* Why Me */}
-      <Reason />
+      {/* Testimoni */}
+      <Testimoni />
+
+      {/* Services */}
+      <Services />
+
+      {/* Achievements */}
+      <Achievements />
 
       {/* Features Section */}
       <section id="features" className="py-20">

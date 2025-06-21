@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section className="text-center mt-20 py-20 px-4 cursor-default">
       <div className="max-w-3xl mx-auto">
@@ -54,4 +54,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;

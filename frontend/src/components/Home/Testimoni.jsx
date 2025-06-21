@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import img1 from "../assets/portfolio-1.jpg";
-import img2 from "../assets/portfolio-2.jpg";
-import img3 from "../assets/portfolio-3.jpg";
+import img1 from "../../assets/testimoni-1.jpg";
+import img2 from "../../assets/testimoni-2.jpg";
+import img3 from "../../assets/testimoni-3.jpg";
 
 const portofolioItems = [{ path: img1 }, { path: img2 }, { path: img3 }];
 
@@ -11,7 +11,7 @@ const Portfolio = () => {
     <section className="text-center py-16 px-4 cursor-default">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl text-primary mb-4 font-brand">
-          Portofolio Wella MUA
+          What They Said
         </h2>
         <div className="h-1 w-36 bg-primary mx-auto mb-4 rounded-full" />
 

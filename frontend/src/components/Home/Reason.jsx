@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import img1 from "../assets/reason-1.jpg";
-import img2 from "../assets/reason-2.jpg";
-import img3 from "../assets/reason-3.jpg";
+import img1 from "../../assets/reason-1.jpg";
+import img2 from "../../assets/reason-2.jpg";
+import img3 from "../../assets/reason-3.jpg";
 import { WiStars } from "react-icons/wi";
 import { GiLipstick } from "react-icons/gi";
 import { TbCertificate } from "react-icons/tb";
@@ -13,7 +13,7 @@ const Reason = () => {
       icon: <WiStars />,
       title: "For Your Beautiful Moments",
       description:
-        "Setiap momen spesial Anda akan terlihat memukau dengan sentuhan make-up profesional.",
+        "Setiap momen spesial Anda akan terlihat sangat memukau dengan sentuhan make-up profesional.",
       image: img1,
     },
     {
@@ -62,8 +62,8 @@ const Reason = () => {
                 >
                   {/* Text Section */}
                   <div
-                    className={`md:w-5/12 px-4 md:px-10 text-center md:text-${
-                      isEven ? "left" : "right"
+                    className={`md:w-5/12 px-4 md:px-10 text-justify md:text-${
+                      isEven ? "right" : "left"
                     } mb-6 md:mb-0`}
                   >
                     <h3 className="text-4xl font-semibold text-primary">
