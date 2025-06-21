@@ -10,7 +10,7 @@ const Testimoni = () => {
   return (
     <section className="text-center py-16 px-4 cursor-default">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl text-primary mb-4 font-brand">
+        <h2 className="text-8xl md:text-5xl font-black font-brand text-primary mb-4">
           What They Said ?
         </h2>
         <div className="h-1 w-36 bg-primary mx-auto mb-4 rounded-full" />
