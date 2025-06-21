@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import Logo from "./Logo";
 
 const navItems = [
-  { label: "Services", url: "#" },
-  { label: "Price List", url: "#" },
-  { label: "Gallery", url: "#" },
-  { label: "Contact", url: "#" },
-  { label: "About Us", url: "#" },
+  { label: "Services", url: "services" },
+  { label: "Price List", url: "/price-list" },
+  { label: "Gallery", url: "gallery" },
+  { label: "Contact", url: "contact" },
+  { label: "About Us", url: "about-us" },
 ];
 
 const Header = () => {
